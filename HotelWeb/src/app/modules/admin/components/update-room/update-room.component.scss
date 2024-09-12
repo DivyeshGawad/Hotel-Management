@@ -1,0 +1,62 @@
+/* Container for the form */
+.room-details-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form styling */
+.room-details-form {
+    background-color: #0D1A29; /* Darker form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px;
+    text-align: center;
+}
+
+/* Form title */
+.form-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Form input fields */
+input[nz-input] {
+    background-color: #2A3C4E; /* Dark input background */
+    border: none; /* No border */
+    padding: 10px;
+    color: #ffffff; /* White text color */
+    border-radius: 5px;
+}
+
+input[nz-input]::placeholder {
+    color: #8A9AA7; /* Placeholder text color */
+}
+
+/* Submit button */
+button[nz-button] {
+    background-color: #1D7BBF; /* Primary button color */
+    border: none; /* No border */
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[nz-button]:hover {
+    background-color: #166699; /* Darker blue on hover */
+}
+
+button[nz-button]:active {
+    background-color: #0F4C75; /* Even darker blue on active */
+}
+
+/* Adjust spacing between form items */
+nz-form-item {
+    margin-bottom: 20px;
+}

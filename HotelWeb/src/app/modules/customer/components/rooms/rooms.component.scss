@@ -1,0 +1,96 @@
+/* Center Form Styles */
+.center-form {
+    text-align: center;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+/* Post Room Button */
+.post-room-btn {
+    margin: 20px 0; /* Consistent top and bottom margin */
+}
+
+/* Room Container */
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Space between room cards */
+    padding: 20px; /* Padding around the container */
+}
+
+/* Room Row */
+.room-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+nz-card {
+    margin: 16px;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Maximum width for the cards */
+}
+
+/* Card Meta Data */
+nz-card-meta {
+    margin-top: 10px;
+}
+
+nz-card-meta:first-of-type {
+    margin-left: 0; /* Remove custom margin on the first meta */
+}
+
+/* Avatar Styles */
+nz-avatar {
+    margin-right: 10px; /* Space around the avatar */
+}
+
+/* Action Icon Styles */
+.icon {
+    font-size: 20px;
+    padding: 5px; /* Padding for better clickability */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.icon:hover {
+    color: #1890ff; /* Color change on hover */
+}
+
+/* Pagination */
+.pagination {
+    float: right;
+    margin-right: 170px;
+    margin-top: 20px; /* Add space from the top */
+}
+
+/* Responsive Pagination for Mobile */
+@media (max-width: 768px) {
+    .pagination {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+
+/* Optional: Adjust card title and description */
+nz-card-meta-title, nz-card-meta-description {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Optional: Adjust skeleton loader */
+nz-skeleton {
+    padding: 16px;
+    border-radius: 8px;
+}
+
+/* Additional Styles if needed */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+}

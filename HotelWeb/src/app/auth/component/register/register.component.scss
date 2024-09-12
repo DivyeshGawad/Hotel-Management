@@ -1,0 +1,56 @@
+.center-form {
+    display: flex;
+    flex-direction: column; /* Corrected 'colum' to 'column' */
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.center-form h2 {
+    font-size: 1.5rem; /* Corrected '1.5re' to '1.5rem' */
+    margin-bottom: 20px;
+    color: #861729; /* Corrected 'D=861729' to '#861729' */
+}
+
+.custom-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #e0e0e0; /* Corrected 'ipx solid Weccc' to '1px solid #e0e0e0' */
+    border-radius: 5px; /* Corrected 'Spx' to '5px' */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .custom-form {
+        max-width: 100%;
+    }
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+
+.custom-form .form-control {
+    margin-bottom: 20px; /* Corrected 'Bargin-bottom' to 'margin-bottom' */
+    padding: 10px;
+}
+
+.custom-form button {
+    background-color: #861729; /* Corrected '10061729' to '#861729' */
+    color: #fff; /* Corrected 'efff' to '#fff' */
+    border: none;
+    cursor: pointer;
+}
+
+.custom-form button:hover {
+    background-color: black; /* Corrected 'Oblack' to 'black' */
+}
